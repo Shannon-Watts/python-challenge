@@ -7,8 +7,8 @@ def average(nums):
     return sum(nums) / len(nums)
 
 # Create paths and empty lists 
-text_path = "pybank.txt"
-csvpath = 'budget_data.csv'
+text_path = ('Analysis', 'pybank.txt')
+csvpath = ('Resources', 'budget_data.csv'
 with open(csvpath) as csvfile:
     csv_reader = csv.reader(csvfile, delimiter=",")
     months = []
