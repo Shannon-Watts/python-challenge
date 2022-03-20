@@ -1,7 +1,7 @@
 import csv
 
-text_path = "pypoll.txt"
-with open('election_data.csv') as data_file:
+text_path = ('Analysis', 'pypoll.txt')
+with open('Resources', 'election_data.csv') as data_file:
     csv_reader = csv.reader(data_file, delimiter=',')
 
     county_data = {}
